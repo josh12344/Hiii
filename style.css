@@ -111,14 +111,18 @@ img:hover {
 }
 
 .envelope {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
     position: relative;
     display: inline-block;
-    width: 250px;
-    height: auto; /* Allow dynamic height */
-    margin: 15px;
+    margin: 30px;
     cursor: pointer;
-    perspective: 1000px;
+    perspective: 5000px;
 }
+
+
+
 
 .envelope-front,
 .envelope-back {
@@ -126,7 +130,7 @@ img:hover {
     top: 0;
     left: 0;
     width: 100%;
-    height: auto; /* Remove fixed height */
+    height: 200px; /* Remove fixed height */
     background-color: #f39c12;
     border: 1px solid #f39c12;
     border-radius: 10px;
@@ -179,4 +183,5 @@ img:hover {
     font-size: 1.2em;
     color: #d6336c; /* romantic pink */
 }
+
 
