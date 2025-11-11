@@ -4,13 +4,13 @@ const quotes = [
     "You’ve become my safest place, my home, my heart — I can’t imagine a life without you in it 🌷",
     "No matter how much time passes, I’ll still choose you, every day. 💖",
     "With you, everything feels right. 💘",
-    "You make my world bloom like spring. 🌸"
-    "Every little thing about you makes me fall harder."
-  "Every time I look at you, I remember what love feels like."
-  "You’re the reason ordinary moments feels special"
-"Every part of you is a reason I'd never stop choosing you"
-"I love how you listen and try to understand me"
-"I love the way you kiss me while we drive"
+    "You make my world bloom like spring. 🌸",
+    "Every little thing about you makes me fall harder.",
+  "Every time I look at you, I remember what love feels like.",
+  "You’re the reason ordinary moments feels special",
+"Every part of you is a reason I'd never stop choosing you",
+"I love how you listen and try to understand me",
+"I love the way you kiss me while we drive",
 " I love the way you hold me both in public and in private"
 
 ];
@@ -82,5 +82,6 @@ function updateCountdown() {
 // Update countdown every second
 const countdownInterval = setInterval(updateCountdown, 1000);
 updateCountdown();
+
 
 
