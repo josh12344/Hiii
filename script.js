@@ -54,8 +54,8 @@ function toggleEnvelope(element) {
 }
 
 // Countdown Timer Setup
-const countdownDate = new Date("2025-11-12T00:00:00").getTime();
- //  const countdownDate = new Date(new Date().getTime() - 5000).getTime(); 
+   const countdownDate = new Date("2025-11-12T00:00:00").getTime();
+  // const countdownDate = new Date(new Date().getTime() - 5000).getTime(); 
 
 function updateCountdown() {
     const now = new Date().getTime();
@@ -82,6 +82,3 @@ function updateCountdown() {
 // Update countdown every second
 const countdownInterval = setInterval(updateCountdown, 1000);
 updateCountdown();
-
-
-
