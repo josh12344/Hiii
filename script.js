@@ -1,8 +1,8 @@
 const quotes = [
-    "You are my today and all of my tomorrows. 💞",
+  "You are my once-in-a-lifetime kind of love, the one I could never let slip away. 💞",
     "I love you more than words can show. 💕",
-    "Every day with you is a beautiful adventure. 🌷",
-    "You are the reason my heart smiles. 💖",
+    "You’ve become my safest place, my home, my heart — I can’t imagine a life without you in it 🌷",
+    "No matter how much time passes, I’ll still choose you, every day. 💖",
     "With you, everything feels right. 💘",
     "You make my world bloom like spring. 🌸"
 ];
@@ -74,3 +74,4 @@ function updateCountdown() {
 // Update countdown every second
 const countdownInterval = setInterval(updateCountdown, 1000);
 updateCountdown();
+
